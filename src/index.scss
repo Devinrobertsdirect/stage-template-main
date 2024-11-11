@@ -1,0 +1,265 @@
+// Variables for theme colors and spacing
+$primary-color: #1e1e2f;
+$secondary-color: #2c2c3e;
+$highlight-color: #e91e63;
+$text-color: #e0e0e0;
+$text-muted-color: #a0a0a0;
+$border-color: #444;
+$hover-color: darken($highlight-color, 10%);
+$spacing-unit: 8px;
+$radius: 4px;
+
+// Global Styling and Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $primary-color;
+    color: $text-color;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: $highlight-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $hover-color;
+    }
+}
+
+// Layout and Containers
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: $spacing-unit * 2;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: $secondary-color;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    padding: $spacing-unit * 2;
+    margin-bottom: $spacing-unit * 2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+// Header and Title
+.header {
+    background-color: $secondary-color;
+    padding: $spacing-unit * 2;
+    border-bottom: 1px solid $border-color;
+    text-align: center;
+
+    h1 {
+        font-size: 1.8rem;
+        color: $highlight-color;
+    }
+}
+
+// Buttons
+.button {
+    background-color: $highlight-color;
+    color: $text-color;
+    padding: $spacing-unit * 1.5 $spacing-unit * 3;
+    border: none;
+    border-radius: $radius;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+
+    &.secondary {
+        background-color: $secondary-color;
+        color: $text-muted-color;
+        border: 1px solid $border-color;
+
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+
+    &.danger {
+        background-color: #ff4444;
+
+        &:hover {
+            background-color: darken(#ff4444, 10%);
+        }
+    }
+}
+
+// Form Elements
+input[type="text"],
+input[type="number"],
+textarea {
+    background-color: $secondary-color;
+    color: $text-color;
+    padding: $spacing-unit;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    margin-bottom: $spacing-unit * 1.5;
+    width: 100%;
+    font-size: 1rem;
+
+    &:focus {
+        border-color: $highlight-color;
+        outline: none;
+    }
+}
+
+select {
+    background-color: $secondary-color;
+    color: $text-muted-color;
+    padding: $spacing-unit;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    font-size: 1rem;
+
+    &:focus {
+        border-color: $highlight-color;
+        outline: none;
+    }
+}
+
+// Scenario Display
+.scenario {
+    padding: $spacing-unit * 2;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    background-color: $primary-color;
+    margin-bottom: $spacing-unit * 2;
+
+    h2 {
+        color: $highlight-color;
+        margin-bottom: $spacing-unit;
+    }
+
+    p {
+        color: $text-muted-color;
+        margin-bottom: $spacing-unit;
+    }
+
+    &__commands {
+        margin-top: $spacing-unit * 2;
+        padding: $spacing-unit;
+        background-color: $secondary-color;
+        border-radius: $radius;
+
+        ul {
+            list-style: none;
+
+            li {
+                padding: $spacing-unit;
+                color: $text-muted-color;
+
+                &:before {
+                    content: '• ';
+                    color: $highlight-color;
+                }
+            }
+        }
+    }
+}
+
+// Chat and Message Boxes
+.chat-box {
+    background-color: $secondary-color;
+    padding: $spacing-unit * 2;
+    border-radius: $radius;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid $border-color;
+    margin-bottom: $spacing-unit * 2;
+
+    .message {
+        margin-bottom: $spacing-unit * 1.5;
+        display: flex;
+
+        &.from-user {
+            justify-content: flex-end;
+
+            .content {
+                background-color: $highlight-color;
+                color: #fff;
+            }
+        }
+
+        &.from-character {
+            justify-content: flex-start;
+
+            .content {
+                background-color: $secondary-color;
+                color: $text-color;
+            }
+        }
+
+        .content {
+            padding: $spacing-unit;
+            border-radius: $radius;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+    }
+}
+
+// System and Status Messages
+.system-message {
+    background-color: $secondary-color;
+    color: $highlight-color;
+    padding: $spacing-unit;
+    border-radius: $radius;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: $spacing-unit * 2;
+}
+
+// Footer
+.footer {
+    background-color: $secondary-color;
+    padding: $spacing-unit * 2;
+    text-align: center;
+    color: $text-muted-color;
+    font-size: 0.9rem;
+}
+
+// Tooltip
+.tooltip {
+    position: relative;
+    cursor: pointer;
+
+    &::after {
+        content: attr(data-tip);
+        position: absolute;
+        left: 50%;
+        bottom: 120%;
+        transform: translateX(-50%);
+        background-color: $highlight-color;
+        color: #fff;
+        padding: $spacing-unit / 2 $spacing-unit;
+        border-radius: $radius;
+        font-size: 0.8rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+
+    &:hover::after {
+        opacity: 1;
+        visibility: visible;
+    }
+}

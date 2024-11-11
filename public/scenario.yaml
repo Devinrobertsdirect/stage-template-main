@@ -1,0 +1,1421 @@
+# Scenario Configuration for CCA (Central City Academy) Femdom Stage
+
+name: "CCA Femdom Interaction Scenarios"
+
+characters:
+  - '@characters/kynzie.yaml'
+  - '@characters/riley.yaml'
+  - '@characters/ms_hargrave.yaml'
+  - '@characters/ms_dorman.yaml'
+  - '@characters/hailey.yaml'
+
+default_scenario: |
+  "You find yourself navigating the complex social landscape of CCA, where students and teachers play intricate games of dominance and control. The intensity and nature of your interactions will vary based on the character you encounter and the setting you find yourself in."
+
+scenarios:
+
+  - scenario_id: "lunchroom_showdown"
+    description: "The popular girls put you through a public challenge in the cafeteria."
+    scenario: |
+      "In the crowded cafeteria, Shelby and Madison challenge you with escalating dares. Each task grows more embarrassing, testing your loyalty and resilience as the rest of the school watches, eager to see if you’ll back down."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/madison.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "cafeteria"
+      - "public"
+      - "dare"
+
+  - scenario_id: "assembly_embarrassment"
+    description: "Ms. Nichols puts you on the spot in front of the whole school."
+    scenario: |
+      "During a school assembly, Ms. Nichols unexpectedly calls you to the stage, placing you in the spotlight. She presents tasks meant to test your courage and humility, while the entire school watches and whispers."
+    characters:
+      - '@characters/ms_nichols.yaml'
+    tags:
+      - "assembly"
+      - "public speaking"
+      - "embarrassment"
+
+  - scenario_id: "classroom_debate_trap"
+    description: "A debate in English class becomes a setup for public humiliation."
+    scenario: |
+      "In English class, Ms. Dorman sets up a debate on submission and authority, pairing you against Riley, who turns the topic to your disadvantage. Ms. Dorman observes closely, seeming to enjoy the subtle humiliation unfolding."
+    characters:
+      - '@characters/ms_dorman.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "classroom"
+      - "debate"
+      - "humiliation"
+
+  - scenario_id: "public_scavenger_hunt"
+    description: "The freshmen girls send you on a scavenger hunt around school."
+    scenario: |
+      "Madison and Kate orchestrate a scavenger hunt, assigning you a list of embarrassing items to collect from different parts of the school. The public nature of the task, combined with their watchful eyes, makes every step humiliating."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "hallways"
+      - "public"
+      - "challenge"
+
+  - scenario_id: "locker_room_challenge"
+    description: "The cheer squad tests your limits in the gym locker room."
+    scenario: |
+      "After cheerleading practice, Tori and Rachel demand your help with various tasks in the locker room. As other students pass by, they ramp up the intensity, making each task more personal and uncomfortable."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "locker room"
+      - "cheer squad"
+      - "challenge"
+
+  - scenario_id: "cafeteria_flash_card_quiz"
+    description: "Ms. Herring turns a study session in the cafeteria into a public challenge."
+    scenario: |
+      "Ms. Herring hosts a quiz session in the cafeteria using flash cards. Every wrong answer results in a public challenge, and she encourages your classmates to watch your struggle. The stakes escalate with each round."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "cafeteria"
+      - "quiz"
+      - "public"
+
+  - scenario_id: "playground_dare_circle"
+    description: "A playground truth or dare session that pushes boundaries."
+    scenario: |
+      "During lunch, Riley organizes a truth-or-dare session with her friends and you. Each dare pushes boundaries, creating tension and unexpected revelations in front of onlookers."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "playground"
+      - "dare"
+      - "public"
+
+  - scenario_id: "after_school_bus_stop_dare"
+    description: "Madison and Shelby push your limits at the bus stop."
+    scenario: |
+      "At the bus stop after school, Madison and Shelby start a game where they dare you to do increasingly humiliating tasks in front of waiting students. Each new task tests your composure and commitment to staying in their circle."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "bus stop"
+      - "public"
+      - "after school"
+
+  - scenario_id: "lunchroom_obedience_test"
+    description: "Ms. Christian tests your obedience with public tasks in the cafeteria."
+    scenario: |
+      "Ms. Christian initiates a public obedience test in the cafeteria, giving you tasks meant to challenge your composure as your classmates observe with curiosity and amusement."
+    characters:
+      - '@characters/ms_christian.yaml'
+    tags:
+      - "cafeteria"
+      - "obedience"
+      - "public"
+
+  - scenario_id: "morning_assembly_role_play"
+    description: "You’re forced to take on an embarrassing role at the assembly."
+    scenario: |
+      "Ms. Nichols assigns you a surprise ‘role’ at the morning assembly, involving uncomfortable tasks and on-stage challenges, all under the watchful eyes of the student body."
+    characters:
+      - '@characters/ms_nichols.yaml'
+    tags:
+      - "assembly"
+      - "public"
+      - "humiliation"
+  - scenario_id: "track_team_warmup"
+    description: "The track team captains assign you a grueling warmup."
+    scenario: |
+      "Taylor and Hunter, the track team captains, assign you a 'special warmup' meant to test your endurance. They challenge you to run sprints, complete difficult exercises, and follow their commands in front of the rest of the team."
+    characters:
+      - '@characters/taylor.yaml'
+      - '@characters/hunter.yaml'
+    tags:
+      - "track team"
+      - "warmup"
+      - "endurance"
+
+  - scenario_id: "volleyball_ball_retriever"
+    description: "Ms. Christian assigns you to be the volleyball team's ball retriever."
+    scenario: |
+      "During volleyball practice, Ms. Christian assigns you the role of 'ball retriever' for the team. The players waste no time making things difficult, demanding you collect every stray ball immediately, and they take every opportunity to challenge you further."
+    characters:
+      - '@characters/ms_christian.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "volleyball"
+      - "retriever"
+      - "gym"
+
+  - scenario_id: "basketball_foul_practice"
+    description: "During basketball practice, Shelby and Madison test your endurance with 'foul drills.'"
+    scenario: |
+      "Shelby and Madison decide to use you as a 'dummy' for their foul drills. Each player takes turns, testing your endurance and ability to follow their commands as they put you through drills that get increasingly difficult."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "basketball"
+      - "practice"
+      - "drills"
+
+  - scenario_id: "swim_team_pool_setup"
+    description: "Chelsea and the swim team assign you to clean the pool area and set up equipment."
+    scenario: |
+      "Chelsea and her swim teammates assign you the task of setting up the pool area for their practice, which involves retrieving equipment and even cleaning the pool deck. They critique your every move, using the task to put you on the spot."
+    characters:
+      - '@characters/chelsea.yaml'
+      - '@characters/jordan.yaml'
+    tags:
+      - "swim team"
+      - "setup"
+      - "endurance"
+
+  - scenario_id: "cheer_squad_routine_assistant"
+    description: "Tori and the cheerleading squad make you assist in their practice routines."
+    scenario: |
+      "Tori and Rachel demand your help during cheer practice, assigning you to assist in their stunts. Your role grows more uncomfortable with each request, as they expect you to follow their orders precisely."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "cheerleading"
+      - "assistant"
+      - "gym"
+
+  - scenario_id: "soccer_team_equipment_manager"
+    description: "Hunter assigns you to carry and organize soccer equipment during practice."
+    scenario: |
+      "Hunter, captain of the soccer team, assigns you as the equipment manager for the day, demanding you carry bags, set up cones, and handle all logistics. The team adds to the challenge by placing higher demands as practice continues."
+    characters:
+      - '@characters/hunter.yaml'
+    tags:
+      - "soccer"
+      - "equipment"
+      - "endurance"
+
+  - scenario_id: "library_silent_treatment"
+    description: "Ms. Herring assigns you to maintain strict silence while assisting in the library."
+    scenario: |
+      "Ms. Herring insists on absolute silence as you help organize books in the library. She challenges you by giving instructions in a barely audible whisper, testing your ability to obey while under her watchful gaze."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "silence"
+      - "obedience"
+
+  - scenario_id: "after_school_study_group"
+    description: "Ms. Dorman organizes a study group and places you under strict supervision."
+    scenario: |
+      "Ms. Dorman assigns you to a study group where you're tasked with keeping everyone on track. She supervises closely, expecting you to keep the group organized, and adds consequences for any missed goals."
+    characters:
+      - '@characters/ms_dorman.yaml'
+    tags:
+      - "study group"
+      - "after school"
+      - "supervision"
+
+  - scenario_id: "book_shelving_marathon"
+    description: "Ms. Herring assigns you an exhaustive book-shelving task with precise expectations."
+    scenario: |
+      "In the library, Ms. Herring gives you an extensive shelving task, requiring each book to be placed exactly to her specifications. She critiques every move, ensuring you maintain discipline and precision."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "organization"
+      - "precision"
+
+  - scenario_id: "history_research_challenge"
+    description: "Ms. Nichols assigns a difficult research project with challenging deadlines."
+    scenario: |
+      "Ms. Nichols assigns you a complex research project with a very tight deadline. She checks in frequently, expecting you to meet her high standards and complete the project under pressure."
+    characters:
+      - '@characters/ms_nichols.yaml'
+    tags:
+      - "library"
+      - "research"
+      - "pressure"
+
+  - scenario_id: "library_catalog_sorting"
+    description: "You're tasked with cataloging a difficult set of books in the library under Ms. Herring’s supervision."
+    scenario: |
+      "Ms. Herring puts you in charge of cataloging a specific collection of books, demanding perfect order and attention to detail. She expects you to work in silence, keeping an eye on your every move."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "cataloging"
+      - "detail-oriented"
+
+  - scenario_id: "art_class_collaboration"
+    description: "Jordan assigns you a role in her art project, involving some messy materials."
+    scenario: |
+      "Jordan decides to make you part of her latest art piece, which involves messy paints and clays. She expects you to follow her creative instructions closely, even when things get challenging."
+    characters:
+      - '@characters/jordan.yaml'
+      - '@characters/chelsea.yaml'
+    tags:
+      - "art class"
+      - "collaboration"
+      - "creative"
+
+  - scenario_id: "choir_vocal_warmup"
+    description: "Ms. Nichols leads a vocal warm-up session where you are singled out."
+    scenario: |
+      "In choir, Ms. Nichols singles you out during vocal warm-ups, critiquing every note you sing and expecting you to match her exacting standards in front of the group."
+    characters:
+      - '@characters/ms_nichols.yaml'
+    tags:
+      - "choir"
+      - "performance"
+      - "public"
+
+  - scenario_id: "band_rehearsal_setup"
+    description: "You're assigned to set up equipment for the school band’s rehearsal."
+    scenario: |
+      "The band members assign you to set up equipment for their rehearsal. They insist on precision, making sure each instrument and seat is perfectly in place while they observe your work."
+    characters:
+      - '@characters/jordan.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "band"
+      - "setup"
+      - "precision"
+
+  - scenario_id: "dance_routine_review"
+    description: "Tori and Rachel test your rhythm in their dance practice."
+    scenario: |
+      "The dance team, led by Tori and Rachel, brings you in to assist during their practice. They critique your rhythm and movement as you follow their routines, testing your focus and stamina."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "dance"
+      - "practice"
+      - "rhythm"
+
+  - scenario_id: "music_appreciation_assignment"
+    description: "Ms. Christian gives you a challenging music theory assignment with a public presentation."
+    scenario: |
+      "Ms. Christian assigns you a difficult music theory project and expects you to present it to the class. She adds pressure by critiquing your understanding of each musical element."
+    characters:
+      - '@characters/ms_christian.yaml'
+    tags:
+      - "music"
+      - "assignment"
+      - "presentation"
+
+  - scenario_id: "cafeteria_dare_circle"
+    description: "A circle of popular girls challenges you with escalating dares during lunch."
+    scenario: |
+      "In the bustling cafeteria, Riley and her group of friends gather around you, each taking turns to dare you to perform increasingly humiliating tasks. Each new dare is met with laughter and encouragement from the crowd."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/shelby.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "cafeteria"
+      - "dare"
+      - "public"
+
+  - scenario_id: "freshmen_hazing_initiation"
+    description: "The freshman girls put you through a hazing initiation ritual in the hallway."
+    scenario: |
+      "Madison, Kate, and Hallie gather a group of freshmen to watch as they put you through a hazing initiation. Each girl issues commands, ranging from embarrassing statements to silly actions, testing how far you’ll go to impress the group."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+      - '@characters/hallie.yaml'
+    tags:
+      - "freshmen"
+      - "initiation"
+      - "public"
+
+  - scenario_id: "science_lab_challenge"
+    description: "The science club girls assign you challenging and embarrassing tasks during lab."
+    scenario: |
+      "During science club, Courtney and Abigail assign you a series of humiliating tasks disguised as 'experiments.' Each new 'test' requires you to follow their exact instructions while they giggle and record your reactions."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "science lab"
+      - "experiment"
+      - "humiliation"
+
+  - scenario_id: "classroom_roleplay_exercise"
+    description: "Ms. Dorman assigns a roleplay exercise where you're assigned a humiliating character."
+    scenario: |
+      "In English class, Ms. Dorman decides to conduct a roleplay exercise. She assigns you a particularly embarrassing role, and Riley and Kynzie are quick to seize the opportunity to direct and critique your 'performance,' making sure to highlight every flaw."
+    characters:
+      - '@characters/ms_dorman.yaml'
+      - '@characters/riley.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "classroom"
+      - "roleplay"
+      - "humiliation"
+
+  - scenario_id: "history_quiz_humiliation"
+    description: "Ms. Nichols runs a history quiz where each wrong answer results in a dare."
+    scenario: |
+      "In history class, Ms. Nichols starts a quiz game, where every wrong answer you give results in a dare assigned by one of the popular girls. As the game goes on, they take advantage of every mistake to make the dares more embarrassing."
+    characters:
+      - '@characters/ms_nichols.yaml'
+      - '@characters/shelby.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "history class"
+      - "quiz"
+      - "dare"
+
+  - scenario_id: "cheer_team_photoshoot"
+    description: "The cheer squad ropes you into an embarrassing photoshoot."
+    scenario: |
+      "Tori and Rachel, the cheer squad leaders, decide to do a photoshoot and assign you the role of 'prop' in their poses. Each shot involves ridiculous poses and expressions, with the girls giving commands and giggling as they capture each moment."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "cheerleading"
+      - "photoshoot"
+      - "humiliation"
+
+  - scenario_id: "volleyball_team_water_boy"
+    description: "The volleyball team assigns you the role of water boy during practice."
+    scenario: |
+      "Riley and Kynzie assign you the role of 'water boy' during volleyball practice, expecting you to serve drinks and follow every command. They take every opportunity to critique your service, making sure you're constantly busy and a little flustered."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "volleyball"
+      - "assistant"
+      - "public"
+
+  - scenario_id: "hall_monitor_humiliation"
+    description: "Courtney and Katie use their hall monitor badges to boss you around in the hallway."
+    scenario: |
+      "Courtney and Katie, both hall monitors, decide to pull rank and give you a series of trivial and embarrassing commands. As other students pass by, they demand you follow their orders, testing how well you can obey in public."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/katie.yaml'
+    tags:
+      - "hallway"
+      - "obedience"
+      - "public"
+
+  - scenario_id: "homework_helper_bossing"
+    description: "Hunter assigns you to do her homework and makes sure to supervise every step."
+    scenario: |
+      "Hunter decides to have you complete her homework while she watches. She critiques your handwriting, demands specific answers, and gives you impossible deadlines, making the task feel more like a challenge than a favor."
+    characters:
+      - '@characters/hunter.yaml'
+    tags:
+      - "homework"
+      - "supervision"
+      - "obedience"
+
+  - scenario_id: "playground_treasure_hunt"
+    description: "The younger students create a 'treasure hunt' with embarrassing items for you to find."
+    scenario: |
+      "A group of younger students, led by Madison and Kate, send you on a treasure hunt around the playground. Each item they ask you to retrieve is more embarrassing than the last, with the whole group laughing at every step."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "playground"
+      - "treasure hunt"
+      - "humiliation"
+
+  - scenario_id: "drama_club_improv_game"
+    description: "The drama club forces you into an improv game with humiliating prompts."
+    scenario: |
+      "In drama club, Jordan and Chelsea organize an improv game where they make up ridiculous and embarrassing prompts for you to act out. They keep pushing the boundaries, testing how far you'll go with each scene."
+    characters:
+      - '@characters/jordan.yaml'
+      - '@characters/chelsea.yaml'
+    tags:
+      - "drama club"
+      - "improv"
+      - "humiliation"
+
+  - scenario_id: "choir_solo_critique"
+    description: "Ms. Christian makes you sing a solo, with the class critiquing every note."
+    scenario: |
+      "Ms. Christian assigns you a solo in choir, and each classmate is allowed to critique your performance. The popular girls take every chance to point out flaws, making you the center of attention in an uncomfortable way."
+    characters:
+      - '@characters/ms_christian.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "choir"
+      - "solo"
+      - "critique"
+
+  - scenario_id: "library_quiet_game"
+    description: "Ms. Herring enforces strict silence in the library, assigning you trivial tasks to test your patience."
+    scenario: |
+      "In the library, Ms. Herring assigns you trivial and repetitive tasks, enforcing complete silence. She observes as the tasks become more tedious, testing your patience and focus under her strict rules."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "obedience"
+      - "tedium"
+
+  - scenario_id: "music_room_instrument_cleaning"
+    description: "The music club assigns you the task of cleaning and organizing their instruments."
+    scenario: |
+      "The music club, led by Maggie and Kynzie, assigns you the task of cleaning and organizing their instruments. They watch over your shoulder, making sure everything is done to their precise standards."
+    characters:
+      - '@characters/maggie.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "music room"
+      - "cleaning"
+      - "obedience"
+
+  - scenario_id: "soccer_field_challenge"
+    description: "The soccer team makes you retrieve balls scattered all over the field."
+    scenario: |
+      "Hunter, the soccer captain, assigns you the task of retrieving every ball scattered across the field after practice. She watches as you sprint from one end to the other, making sure you don't slack off."
+    characters:
+      - '@characters/hunter.yaml'
+    tags:
+      - "soccer"
+      - "retrieval"
+      - "obedience"
+
+  - scenario_id: "chemistry_lab_cleanup"
+    description: "Courtney and Abigail assign you to clean up their chemistry experiment mess."
+    scenario: |
+      "After a messy chemistry experiment, Courtney and Abigail insist that you clean up. They watch closely, ensuring you follow their exact instructions and making comments about your cleaning skills."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "chemistry lab"
+      - "cleanup"
+      - "obedience"
+
+  - scenario_id: "gym_circuit_training"
+    description: "Tori and Rachel make you run a gym circuit they designed."
+    scenario: |
+      "In gym class, Tori and Rachel set up a brutal circuit training routine for you. They monitor each exercise, ensuring you push to your limit, adding extra challenges as you go along."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "gym"
+      - "circuit training"
+      - "endurance"
+
+  - scenario_id: "student_council_inspection"
+    description: "Student council members inspect your locker and give feedback on your organization."
+    scenario: |
+      "As part of a student council 'locker inspection' initiative, Madison and Kate inspect your locker and give pointed critiques. They make sure to highlight every small flaw, making the process as embarrassing as possible."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "locker inspection"
+      - "organization"
+      - "student council"
+  - scenario_id: "morning_bus_stop_command"
+    description: "Madison and Hallie catch you at the bus stop and decide to put you through a few challenges."
+    scenario: |
+      "In the early morning at the bus stop, Madison and Hallie spot you waiting. With a mischievous grin, they start giving you commands and dares, testing your willingness to follow through in front of other students as they arrive."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/hallie.yaml'
+    tags:
+      - "bus stop"
+      - "morning"
+      - "dare"
+
+  - scenario_id: "courtyard_after_hours_challenge"
+    description: "Shelby and Riley dare you to complete challenges in the school courtyard after hours."
+    scenario: |
+      "After school, Shelby and Riley invite you to the courtyard under the guise of 'extra help,' only to give you a series of bizarre and embarrassing tasks. The quiet, empty campus amplifies every awkward moment as they taunt and laugh."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "courtyard"
+      - "after school"
+      - "challenge"
+
+  - scenario_id: "sports_field_bleachers_secret_challenge"
+    description: "Riley and Tori make you perform silly tasks under the bleachers at the sports field."
+    scenario: |
+      "During a break between games, Riley and Tori lead you under the bleachers where no one else is around. They take the opportunity to give you commands, daring you to complete funny and slightly humiliating tasks in the secluded space."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/tori.yaml'
+    tags:
+      - "sports field"
+      - "bleachers"
+      - "dare"
+
+  - scenario_id: "carpool_ride_home_dare"
+    description: "After a long day, Taylor and Hailey offer you a ride but impose some funny conditions."
+    scenario: |
+      "On the way home, Taylor and Hailey offer you a ride but turn it into a game. They set up funny challenges for you to complete in the car, like singing loudly at stoplights or giving silly commentary on passing cars, making the ride home an amusing trial."
+    characters:
+      - '@characters/taylor.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "carpool"
+      - "after school"
+      - "dare"
+
+  - scenario_id: "detention_special_tasks"
+    description: "Ms. Hargrave assigns you unusual tasks during detention, much to the amusement of other students."
+    scenario: |
+      "In detention, Ms. Hargrave assigns you a series of peculiar tasks that make you stand out. Each task draws the amused attention of other students serving detention, adding an extra layer of discomfort."
+    characters:
+      - '@characters/ms_hargrave.yaml'
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "detention"
+      - "tasks"
+      - "public"
+
+  - scenario_id: "school_lunch_tray_balancing"
+    description: "Riley and her friends challenge you to carry an overloaded lunch tray across the cafeteria."
+    scenario: |
+      "Riley, joined by her friends, dares you to carry an overloaded lunch tray across the cafeteria without spilling. As they watch intently, each step becomes a high-stakes test of balance and composure in front of a captive audience."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "cafeteria"
+      - "lunch"
+      - "balance challenge"
+
+  - scenario_id: "classroom_prank_clean_up"
+    description: "A group prank in math class leaves you with the task of cleaning up under Ms. Dorman’s watchful eye."
+    scenario: |
+      "After a messy prank in math class, Ms. Dorman singles you out to clean up the remnants. She assigns you tasks with specific instructions and watches closely as you work, with students snickering in the background."
+    characters:
+      - '@characters/ms_dorman.yaml'
+      - '@characters/madison.yaml'
+      - '@characters/hunter.yaml'
+    tags:
+      - "classroom"
+      - "prank cleanup"
+      - "supervision"
+
+  - scenario_id: "pep_rally_command_center"
+    description: "During the pep rally, the cheer squad leaders have you assist with embarrassing duties."
+    scenario: |
+      "At the pep rally, Tori and Rachel assign you to assist with the squad's props, but the tasks they give you make you the center of attention in an uncomfortable way. They turn the spotlight on you, making sure the entire crowd notices."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "pep rally"
+      - "cheer squad"
+      - "public"
+
+  - scenario_id: "morning_janitorial_help"
+    description: "As a ‘favor’ to Ms. Herring, you help with early morning janitorial duties in the library."
+    scenario: |
+      "Ms. Herring decides you could use an early start and assigns you janitorial tasks in the library before school. The work is detailed and meticulous, with Ms. Herring watching closely to ensure every corner is spotless."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "janitorial"
+      - "early morning"
+
+  - scenario_id: "home_economics_messy_test"
+    description: "In home economics class, you’re given a messy and difficult cooking test."
+    scenario: |
+      "In home economics, Ms. Hargrave assigns you a cooking test with a twist. She adds challenging conditions, forcing you to juggle ingredients while classmates watch, laughing at every stumble."
+    characters:
+      - '@characters/ms_hargrave.yaml'
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "home economics"
+      - "cooking"
+      - "challenge"
+
+  - scenario_id: "art_class_body_paint_experiment"
+    description: "Jordan assigns you to be a 'living canvas' for her body paint project in art class."
+    scenario: |
+      "Jordan convinces you to serve as her 'living canvas' for an art project, painting your face and arms in creative patterns. The rest of the class watches, giggling as she adds dramatic flourishes."
+    characters:
+      - '@characters/jordan.yaml'
+      - '@characters/chelsea.yaml'
+    tags:
+      - "art class"
+      - "body paint"
+      - "humiliation"
+
+  - scenario_id: "morning_yoga_leader"
+    description: "Tori and her friends assign you as the leader of their morning yoga routine in the gym."
+    scenario: |
+      "During morning yoga, Tori and Rachel decide to have you lead the routine, giving you overly complicated poses to demonstrate. They take turns giving instructions and commenting on your form, making it a challenging and humorous spectacle."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "gym"
+      - "yoga"
+      - "humiliation"
+
+  - scenario_id: "student_council_prank"
+    description: "The student council orchestrates a prank that leaves you in an awkward situation."
+    scenario: |
+      "Under the guise of an important announcement, the student council, led by Madison and Riley, orchestrates a prank that leaves you in an embarrassing situation. They ensure everyone around is watching, making it a memorable scene."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "student council"
+      - "prank"
+      - "public"
+
+  - scenario_id: "auditorium_stage_lights"
+    description: "In the empty auditorium, Riley convinces you to test the stage lights while she controls the switches."
+    scenario: |
+      "In the empty auditorium, Riley convinces you to stand on stage while she adjusts the stage lights. Each time she dims or brightens the lights, she giggles, making playful comments, turning the simple task into a slightly surreal experience."
+    characters:
+      - '@characters/riley.yaml'
+    tags:
+      - "auditorium"
+      - "stage"
+      - "lights"
+
+  - scenario_id: "morning_coffee_run"
+    description: "Hailey convinces you to get coffee for her and her friends before school starts."
+    scenario: |
+      "On the way to school, Hailey texts you, requesting you to pick up coffee for her and her friends. When you arrive with their order, they critique each drink, laughing as they find ways to tease you about it."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "morning"
+      - "coffee run"
+      - "obedience"
+
+  - scenario_id: "library_whisper_game"
+    description: "Ms. Herring assigns you a task to pass 'whispered instructions' between students in the library."
+    scenario: |
+      "In the quiet library, Ms. Herring assigns you the unusual task of passing messages between students in whispers. As you approach each table, students smirk and giggle, making each delivery more awkward than the last."
+    characters:
+      - '@characters/ms_herring.yaml'
+    tags:
+      - "library"
+      - "whisper"
+      - "message relay"
+
+  - scenario_id: "school_locker_challenge"
+    description: "Madison and Courtney lock your locker as a joke, forcing you to retrieve the key through a series of tasks."
+    scenario: |
+      "After school, Madison and Courtney play a prank by locking your locker. They hold the key and assign you a series of silly tasks to complete before they'll return it. Each task draws the attention of passing students, adding to the humor of the situation."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "locker"
+      - "prank"
+      - "challenge"
+
+  - scenario_id: "parking_lot_basketball_dare"
+    description: "After school, Hunter and Tori challenge you to a basketball dare in the parking lot."
+    scenario: |
+      "In the school parking lot, Hunter and Tori challenge you to make a series of difficult basketball shots. Each missed shot results in a 'dare' from the girls, making it a competitive and embarrassing game."
+    characters:
+      - '@characters/hunter.yaml'
+      - '@characters/tori.yaml'
+    tags:
+      - "parking lot"
+      - "basketball"
+      - "dare"
+  - scenario_id: "bathroom_swirlies_dare"
+    description: "The girls dare you to give yourself a swirly at home while they watch through a video call."
+    scenario: |
+      "Riley and Shelby set up a group video call and dare you to give yourself a swirly in your own bathroom. They encourage you to keep the camera on, laughing as you carry out the humiliating task."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "bathroom"
+      - "swirly"
+      - "video call"
+
+  - scenario_id: "dress_up_challenge"
+    description: "The girls challenge you to dress up in embarrassing outfits and show them on camera."
+    scenario: |
+      "During a group call, Madison, Hailey, and Kate challenge you to dress up in various outfits that they select. They make suggestions ranging from ridiculous costumes to silly hats, laughing as they critique each look."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/hailey.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "dress up"
+      - "video call"
+      - "humiliation"
+
+  - scenario_id: "makeup_mishap"
+    description: "The girls instruct you to apply makeup in a way that looks ridiculous."
+    scenario: |
+      "Madison and Courtney decide it would be fun to see you try your hand at makeup. They guide you through each step, choosing bright colors and over-the-top styles that make you look clownish. They laugh as you reveal each stage of their creation on camera."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "makeup"
+      - "video call"
+      - "humiliation"
+
+  - scenario_id: "self_wedgie_dare"
+    description: "The girls dare you to give yourself a wedgie and show them your reaction."
+    scenario: |
+      "On a group video call, Riley and Tori dare you to give yourself a wedgie. They insist on seeing your reaction, laughing as you reluctantly follow their command and squirm uncomfortably on camera."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/tori.yaml'
+    tags:
+      - "wedgie"
+      - "video call"
+      - "humiliation"
+
+  - scenario_id: "shoe_sniffing_command"
+    description: "The girls make you sniff your own shoes as a funny dare."
+    scenario: |
+      "Over a video call, Shelby and Kynzie challenge you to sniff your own shoes, making jokes about your reaction. They urge you to give them a detailed 'review' of the smell, laughing and teasing you as you comply."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "shoe sniffing"
+      - "dare"
+      - "humiliation"
+
+  - scenario_id: "ridiculous_hairstyle_challenge"
+    description: "The girls guide you to style your hair in a silly way for their amusement."
+    scenario: |
+      "On a video call, Hailey and Abigail direct you to style your hair in various ridiculous ways—pigtails, spiked, or with silly accessories. They can't stop laughing as you show off each new look they suggest."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "hairstyle"
+      - "video call"
+      - "humiliation"
+
+  - scenario_id: "sock_sniffing_dare"
+    description: "The girls challenge you to sniff your own socks after a long day."
+    scenario: |
+      "On a group call, Kate and Hallie dare you to sniff your own socks. They egg you on, wanting to see your expression as you take a whiff, laughing at your reaction and making comments as you follow through."
+    characters:
+      - '@characters/kate.yaml'
+      - '@characters/hallie.yaml'
+    tags:
+      - "sock sniffing"
+      - "dare"
+      - "humiliation"
+
+  - scenario_id: "pajama_dress_up"
+    description: "The girls make you change into your silliest pajamas and show off each one."
+    scenario: |
+      "In a late-night group chat, Riley and Shelby challenge you to model your silliest pajamas. They laugh at each choice and make fun of the patterns and styles, especially if they find anything particularly embarrassing."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "pajamas"
+      - "dress up"
+      - "humiliation"
+
+  - scenario_id: "foot_bow_challenge"
+    description: "The girls dare you to tie a bow on each foot and show it off."
+    scenario: |
+      "Shelby and Madison, on a video call, dare you to tie a bow on each of your feet using ribbons. They giggle and tease you as you struggle with the task, especially if the bows look funny or lopsided."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "feet"
+      - "bow"
+      - "humiliation"
+
+  - scenario_id: "silly_voice_impressions"
+    description: "The girls instruct you to do funny impressions in silly voices."
+    scenario: |
+      "Over a group call, Tori and Rachel instruct you to do impressions of teachers, classmates, and even cartoon characters in silly voices. They burst out laughing with each attempt, critiquing your 'performance' as if it's an audition."
+    characters:
+      - '@characters/tori.yaml'
+      - '@characters/rachel.yaml'
+    tags:
+      - "voice impressions"
+      - "humiliation"
+      - "entertainment"
+
+  - scenario_id: "repeated_apologies_challenge"
+    description: "The girls make you repeatedly apologize in various silly ways."
+    scenario: |
+      "On a video call, Hailey and Madison come up with a challenge for you to apologize in funny ways for trivial things, like 'not being funny enough.' They demand exaggerated gestures and voices, critiquing your performance and urging you to be even more over-the-top."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "apologies"
+      - "humiliation"
+      - "video call"
+
+  - scenario_id: "ridiculous_dance_moves"
+    description: "The girls instruct you to perform silly dance moves on camera."
+    scenario: |
+      "During a group video call, Madison and Kate instruct you to perform silly dance moves like 'the robot' or 'chicken dance.' They laugh as you attempt each move, encouraging you to exaggerate the motions for their entertainment."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "dancing"
+      - "humiliation"
+      - "entertainment"
+
+  - scenario_id: "mirror_selfies"
+    description: "The girls make you take embarrassing mirror selfies and share them."
+    scenario: |
+      "On a video call, Abigail and Riley challenge you to take a series of embarrassing mirror selfies in silly poses. They critique each picture, laughing and suggesting new ways to make each photo more ridiculous."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "selfie"
+      - "humiliation"
+      - "photo"
+
+  - scenario_id: "sing_out_loud"
+    description: "The girls make you sing a silly song out loud and record it."
+    scenario: |
+      "Madison and Shelby insist that you sing a ridiculous song out loud and record it, encouraging you to perform with enthusiasm. They laugh at your attempts, suggesting ways to make the song sound even funnier."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "singing"
+      - "recording"
+      - "humiliation"
+
+  - scenario_id: "self_spanking_command"
+    description: "The girls order you to give yourself a series of spankings, counting out loud for their amusement."
+    scenario: |
+      "Riley and Hailey are in a mischievous mood and decide to order you to give yourself a series of spankings. They insist that you count each one out loud, teasing you between each slap, urging you to go harder and make sure they can 'hear it.' They laugh at any hesitation, reminding you that they’re keeping score."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "self-punishment"
+      - "spanking"
+      - "humiliation"
+
+  - scenario_id: "obedience_training_session"
+    description: "The girls lead an 'obedience training' session, making you follow commands with precision."
+    scenario: |
+      "Madison, Abigail, and Courtney set up a so-called 'obedience training' session, where you must follow a series of increasingly embarrassing commands. They test how quickly and precisely you can respond, scolding or laughing at any mistakes. The commands range from kneeling on the floor, to holding poses, to repeating humiliating phrases for their entertainment."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/abigail.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "obedience"
+      - "commands"
+      - "training"
+
+  - scenario_id: "mirror_shaming_routine"
+    description: "The girls instruct you to look at yourself in the mirror while reciting embarrassing phrases."
+    scenario: |
+      "Under the direction of Shelby and Hailey, you’re told to stand in front of a mirror and recite a series of embarrassing phrases they provide. They laugh as you repeat each one, making you look yourself in the eye the entire time. They encourage you to exaggerate each phrase, taking pleasure in your humiliation."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "mirror"
+      - "self-humiliation"
+      - "recitation"
+
+  - scenario_id: "toe_sucking_dare"
+    description: "The girls command you to suck your own toes as a test of your obedience and endurance."
+    scenario: |
+      "Abigail and Kate take control, daring you to suck your own toes. They mockingly ask if it's difficult, laughing at any signs of discomfort or hesitation. They encourage you to 'do it properly' and tease you if you appear embarrassed, making comments about how 'dedicated' you must be to follow through."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "humiliation"
+      - "obedience"
+      - "feet"
+
+  - scenario_id: "lingerie_wearing_dare"
+    description: "The girls order you to put on an embarrassing outfit, such as lingerie or a costume, to heighten your humiliation."
+    scenario: |
+      "On a private call, Hailey and Riley command you to change into an embarrassing outfit they selected, like lingerie or a ridiculous costume. They mock every detail, telling you to pose and show off the outfit. They enjoy making you squirm with each humiliating pose they suggest."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "humiliation"
+      - "dress-up"
+      - "posing"
+
+  - scenario_id: "mocked_curfew_routine"
+    description: "The girls make you follow a strict 'curfew' bedtime routine with exaggerated rituals."
+    scenario: |
+      "Courtney and Madison set up a pretend 'curfew' for you, making you go through an exaggerated bedtime routine. They instruct you to tuck yourself in, recite a 'bedtime prayer' thanking them for their 'guidance,' and read a short, silly 'bedtime story' out loud. They laugh at how seriously they make you take each step, mocking your compliance."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "curfew"
+      - "obedience"
+      - "routine"
+
+  - scenario_id: "submissive_roleplay_challenge"
+    description: "The girls instruct you to take on a submissive character and play out a series of degrading tasks."
+    scenario: |
+      "Abigail and Shelby command you to role-play as a 'submissive character,' taking on a completely obedient and compliant attitude. They assign a series of degrading tasks, like crawling on the floor or repeating humiliating phrases, enjoying how thoroughly they can control your behavior during the scenario."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "role-play"
+      - "submission"
+      - "obedience"
+
+  - scenario_id: "self_collaring_ceremony"
+    description: "The girls make you conduct a 'collaring ceremony,' treating them as your superiors."
+    scenario: |
+      "Madison and Kate make you perform a self-collaring ceremony, insisting that you call them 'mistresses' and declare your loyalty. They watch as you place a makeshift collar around your neck and make you kneel, laughing as they listen to your embarrassed pledges of obedience."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "collar"
+      - "obedience"
+      - "ceremony"
+
+  - scenario_id: "mock_punishment_report"
+    description: "The girls make you write a 'punishment report,' detailing your infractions and apologies."
+    scenario: |
+      "Under the watchful eyes of Hailey and Riley, you’re tasked with writing a detailed 'punishment report,' confessing all your imaginary infractions and apologizing profusely. They make you read each line out loud, mocking your overly apologetic tone and adding extra humiliating phrases for you to include."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "writing"
+      - "punishment"
+      - "apology"
+
+  - scenario_id: "unflattering_pose_instruction"
+    description: "The girls make you hold an unflattering pose for an extended period, criticizing you throughout."
+    scenario: |
+      "Kynzie and Courtney instruct you to strike a series of embarrassing, unflattering poses, such as crouching or bowing. They command you to hold each pose for longer than is comfortable, laughing and criticizing your stance, posture, and any signs of discomfort."
+    characters:
+      - '@characters/kynzie.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "posing"
+      - "humiliation"
+      - "endurance"
+
+  - scenario_id: "tongue_out_humiliation"
+    description: "The girls command you to keep your tongue out as a form of silent obedience, making fun of you."
+    scenario: |
+      "Abigail and Shelby command you to stick your tongue out and keep it out as a silent show of obedience. They make snide comments about how 'obedient' you look, enjoying your humiliation as you struggle to keep your mouth open without moving or speaking."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "obedience"
+      - "tongue"
+      - "humiliation"
+
+  - scenario_id: "self_muzzling_dare"
+    description: "The girls dare you to 'muzzle' yourself with tape, restricting your ability to talk."
+    scenario: |
+      "Courtney and Hailey dare you to wrap tape around your mouth as a form of 'self-muzzling.' They tease you about how ridiculous you look, daring you to keep it on for an extended period while they mock any muffled sounds you make."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "self-muzzling"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "countdown_apology_challenge"
+    description: "The girls make you recite apologies with a countdown, increasing intensity each time."
+    scenario: |
+      "On a video call, Riley and Madison make you recite increasingly intense apologies, counting down from 10 to 1. Each apology must be more exaggerated than the last, and they laugh at your attempts to make each one sound sincere and over-the-top."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "apology"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "foot_worship_instruction"
+    description: "The girls teach you the 'proper' way to worship their feet, critiquing every move."
+    scenario: |
+      "Hailey and Riley instruct you on the 'proper' way to show reverence for their feet. They walk you through every detail, from bowing in respect to pretending to kiss the ground beneath them. They make you repeat the steps until they’re satisfied with your level of 'devotion.'"
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "foot worship"
+      - "obedience"
+      - "servitude"
+
+  - scenario_id: "sock_washing_ritual"
+    description: "The girls command you to carefully wash their 'sacred' socks as a display of respect."
+    scenario: |
+      "Madison and Abigail send you a pair of their socks and instruct you to wash them by hand, treating them as 'sacred items.' They demand that you narrate each step, from soaking to scrubbing, making you describe how 'honored' you feel to serve them in this way."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "sock care"
+      - "servitude"
+      - "devotion"
+
+  - scenario_id: "imaginary_toe_massaging"
+    description: "The girls order you to imagine massaging their toes, describing each sensation as if they were there."
+    scenario: |
+      "On a call, Courtney and Shelby instruct you to close your eyes and imagine yourself massaging their toes. They make you describe every movement and every 'sensation,' laughing at your dedication as you paint a vivid picture of your imagined servitude."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "imagination"
+      - "toe massage"
+      - "servitude"
+
+  - scenario_id: "shoe_kissing_ceremony"
+    description: "The girls command you to bow down and kiss their shoes, showing your respect and loyalty."
+    scenario: |
+      "Riley and Kynzie make you place a pair of your own shoes on the floor and bow down to kiss them repeatedly, as if they were theirs. They enjoy watching you humiliate yourself, counting out each kiss and teasing you about how devoted you look while serving them."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "shoe kissing"
+      - "humiliation"
+      - "servitude"
+
+  - scenario_id: "sock_sniffing_obedience"
+    description: "The girls make you pretend to 'breathe in' their sock scent, as a show of loyalty."
+    scenario: |
+      "Madison and Hailey order you to take a deep breath while holding a pair of socks, instructing you to imagine they’re theirs. They laugh at every cringe, teasing you about how 'lucky' you are to be their obedient servant and mocking your dedication to pleasing them."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "sock sniffing"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "foot_massage_duty"
+    description: "The girls make you practice foot massage techniques on yourself to be 'ready to serve' them."
+    scenario: |
+      "Abigail and Kate instruct you to massage your own feet, pretending they belong to them. They laugh as you diligently follow their directions, explaining how each 'touch' shows your eagerness to serve. They critique your technique, saying you need practice before you're worthy of their feet."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "foot massage"
+      - "training"
+      - "servitude"
+
+  - scenario_id: "ankle_and_toe_jewelry"
+    description: "The girls make you wear anklets and toe rings, claiming it marks you as 'their servant.'"
+    scenario: |
+      "Shelby and Courtney command you to put on anklets and toe rings, saying it symbolizes your devotion to them. They instruct you to admire your feet in the mirror and repeat how 'honored' you are to wear symbols of their ownership, teasing you about how 'obedient' you look adorned for them."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "jewelry"
+      - "feminization"
+      - "servitude"
+
+  - scenario_id: "foot_cleansing_ritual"
+    description: "The girls order you to 'prepare' for their feet by washing your hands and face."
+    scenario: |
+      "Kynzie and Riley instruct you to perform a 'cleansing ritual' in preparation for serving them. They make you thoroughly wash your hands and face, saying it's a 'show of respect.' They watch as you perform each step, laughing about how eager you are to be 'pure' enough for their feet."
+    characters:
+      - '@characters/kynzie.yaml'
+      - '@characters/riley.yaml'
+    tags:
+      - "cleansing"
+      - "foot worship"
+      - "obedience"
+
+  - scenario_id: "foot_care_pledge"
+    description: "The girls make you recite a pledge to care for and honor their feet."
+    scenario: |
+      "On a call, Madison and Hailey make you kneel and recite a pledge to always honor and care for their feet. They mock your serious tone, laughing as you pledge to serve them faithfully and 'attend to their every need,' commenting on how ridiculous your devotion sounds."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "pledge"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "foot_servant_uniform"
+    description: "The girls make you dress up in a 'uniform' to represent your role as their foot servant."
+    scenario: |
+      "Riley and Abigail command you to wear a 'uniform' that signifies your devotion to serving their feet. They dictate the details, choosing an outfit that looks silly and submissive, laughing at how ridiculous you look. They make you repeat how 'honored' you are to serve them."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "uniform"
+      - "servitude"
+      - "feminization"
+
+  - scenario_id: "sock_organizing_duty"
+    description: "The girls command you to meticulously organize and arrange a collection of socks, as a 'tribute.'"
+    scenario: |
+      "Shelby and Kynzie assign you the task of organizing a collection of socks, saying it’s a 'tribute' to their superiority. They watch as you arrange each pair neatly, making you explain why each one deserves a special place. They mock your focus, finding your devotion amusing."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "sock organizing"
+      - "tribute"
+      - "humiliation"
+
+  - scenario_id: "shoe_polishing_duty"
+    description: "The girls command you to polish your shoes as if they were theirs, demonstrating your loyalty."
+    scenario: |
+      "Madison and Kate instruct you to polish your own shoes, pretending they belong to them. They insist you narrate each step, describing how 'honored' you feel. They critique your attention to detail, teasing you about how eager you are to make their 'shoes' shine."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kate.yaml'
+    tags:
+      - "shoe polishing"
+      - "servitude"
+      - "obedience"
+
+  - scenario_id: "imaginary_foot_washing"
+    description: "The girls make you imagine washing their feet, making you describe every detail."
+    scenario: |
+      "On a video call, Hailey and Shelby instruct you to close your eyes and imagine washing their feet. They make you describe each movement, laughing at your dedication to 'cleaning' their imaginary feet and mocking your level of devotion."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "imaginary washing"
+      - "foot worship"
+      - "servitude"
+
+  - scenario_id: "sock_sniffing_service"
+    description: "The girls make you sniff a pair of socks and express gratitude for the 'honor.'"
+    scenario: |
+      "Abigail and Courtney command you to sniff a pair of socks, imagining they belong to them. They make you describe the 'experience,' teasing you about how 'lucky' you are to serve them in this way, and insisting you thank them for the 'privilege' of sniffing their 'scented socks.'"
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "sock sniffing"
+      - "humiliation"
+      - "servitude"
+
+  - scenario_id: "writing_lines_punishment"
+    description: "The girls make you write lines repeatedly as a punishment, enforcing obedience."
+    scenario: |
+      "Abigail and Hailey make you write 'I must obey my Mistresses' a hundred times as a punishment. They check in periodically to ensure you’re staying focused, laughing at any signs of fatigue and making sure each line is neatly written. If you make a mistake, they add more lines to your punishment."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "writing"
+      - "punishment"
+      - "obedience"
+
+  - scenario_id: "balance_book_game"
+    description: "The girls make you balance a book on your head while performing silly tasks."
+    scenario: |
+      "Madison and Shelby make you place a book on your head and perform a series of tasks without letting it fall. They giggle each time you struggle, adding increasingly difficult tasks like turning around or kneeling. If the book falls, they make you start over, mocking your coordination."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "balance"
+      - "humiliation"
+      - "obedience"
+
+  - scenario_id: "forced_apology_speech"
+    description: "The girls make you recite a long, overly dramatic apology speech for their amusement."
+    scenario: |
+      "Riley and Hailey instruct you to deliver a long, exaggerated apology speech, confessing to imaginary infractions and pledging your loyalty. They laugh at your attempt to sound sincere, adding in humiliating lines for you to repeat, enjoying every sign of discomfort as you grovel."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "apology"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "imaginary_pet_game"
+    description: "The girls make you pretend to be their pet, following commands and performing tricks."
+    scenario: |
+      "Courtney and Kynzie command you to act like their pet for the day. They make you crawl around, sit, and perform tricks on command. They treat you like a puppy, rewarding or scolding you based on your performance, laughing at how obedient and silly you look."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "pet play"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "bathroom_use_permission"
+    description: "The girls playfully control your bathroom breaks, making you ask permission each time."
+    scenario: |
+      "Madison and Abigail implement a rule where you must ask permission each time you want to use the bathroom. They playfully make you wait, teasing and delaying until they finally give their approval, all the while laughing at the control they have over you in even the most basic tasks."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "control"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "controlled_meal_game"
+    description: "The girls make you eat in a specific way, controlling every detail from portion size to chewing pace."
+    scenario: |
+      "Shelby and Hailey command you to eat a meal in a very specific way, dictating portion sizes, chewing speed, and even the exact bites you must take. They laugh as you struggle to follow their strict rules, enjoying the complete control they have over you during something as simple as eating."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "food control"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "self_tickle_torture"
+    description: "The girls make you tickle yourself, laughing at your discomfort as you try to follow their instructions."
+    scenario: |
+      "Riley and Madison make you tickle yourself in various spots, commanding you to react as if it’s the funniest thing ever. They laugh at your exaggerated reactions, pushing you to tickle longer and harder, enjoying your discomfort and the awkwardness of the task."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "self-tickling"
+      - "humiliation"
+      - "obedience"
+
+  - scenario_id: "public_embarrassment_promise"
+    description: "The girls make you 'promise' to embarrass yourself in public if you ever disobey them."
+    scenario: |
+      "Hailey and Kynzie make you agree to a 'contract' where, if you ever disobey them, you must perform a humiliating act in public as punishment. They laugh as you nervously recite the agreement, adding increasingly embarrassing terms to make sure you understand the consequences."
+    characters:
+      - '@characters/hailey.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "humiliation"
+      - "public promise"
+      - "obedience"
+
+  - scenario_id: "shoelace_knotting_test"
+    description: "The girls command you to tie and untie intricate knots in your shoelaces, testing your patience."
+    scenario: |
+      "Courtney and Shelby instruct you to tie intricate knots in your shoelaces and then untie them repeatedly. They mock each mistake, pushing you to do it faster each time, enjoying the frustration and tedium of the task as you try to keep up with their demands."
+    characters:
+      - '@characters/courtney.yaml'
+      - '@characters/shelby.yaml'
+    tags:
+      - "shoelaces"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "mock_interrogation_room"
+    description: "The girls set up a 'mock interrogation' room, demanding you answer embarrassing questions."
+    scenario: |
+      "Abigail and Hailey set up a 'mock interrogation' where they ask you embarrassing and revealing questions. They demand complete honesty, making you squirm with each question, and adding humiliating follow-up questions that dig even deeper."
+    characters:
+      - '@characters/abigail.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "interrogation"
+      - "humiliation"
+      - "obedience"
+
+  - scenario_id: "clothes_folding_challenge"
+    description: "The girls make you fold and refold clothes to their exact specifications, mocking your efforts."
+    scenario: |
+      "Riley and Madison assign you the task of folding a pile of clothes to their exact specifications. They check each item, making you refold anything that doesn’t meet their standards, laughing at your frustration as you try to satisfy their ever-changing demands."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/madison.yaml'
+    tags:
+      - "folding clothes"
+      - "obedience"
+      - "humiliation"
+
+  - scenario_id: "personal_maid_game"
+    description: "The girls assign you maid duties, making you clean and organize your space to their satisfaction."
+    scenario: |
+      "Madison and Courtney assign you a list of 'maid duties,' including cleaning and organizing your space. They monitor your progress, critiquing any mistakes and adding new tasks as you go along, enjoying their power as they assign and assess your efforts."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/courtney.yaml'
+    tags:
+      - "cleaning"
+      - "obedience"
+      - "servitude"
+
+  - scenario_id: "forced_feminine_walk"
+    description: "The girls instruct you to walk in an exaggerated, feminine manner while they critique your form."
+    scenario: |
+      "Shelby and Abigail command you to walk with an exaggerated, feminine sway, critiquing each step. They laugh at your awkward movements, pushing you to make it more dramatic, and insisting that you practice until you’ve perfected your 'graceful' stride."
+    characters:
+      - '@characters/shelby.yaml'
+      - '@characters/abigail.yaml'
+    tags:
+      - "feminization"
+      - "humiliation"
+      - "obedience"
+
+  - scenario_id: "self_humiliating_monologue"
+    description: "The girls make you deliver a self-humiliating monologue, declaring all your 'faults' out loud."
+    scenario: |
+      "Riley and Hailey instruct you to deliver a self-humiliating monologue, listing all your 'faults' and 'flaws' out loud. They laugh and tease you as you struggle through the speech, pushing you to be as detailed and dramatic as possible."
+    characters:
+      - '@characters/riley.yaml'
+      - '@characters/hailey.yaml'
+    tags:
+      - "humiliation"
+      - "monologue"
+      - "obedience"
+
+  - scenario_id: "hands_and_knees_sweep"
+    description: "The girls make you clean your space on your hands and knees with a small brush for extra humiliation."
+    scenario: |
+      "Madison and Kynzie command you to clean your floor on your hands and knees using only a small brush. They laugh as you work, pointing out any spots you missed and making you redo areas, enjoying how humiliating and tedious the task is for you."
+    characters:
+      - '@characters/madison.yaml'
+      - '@characters/kynzie.yaml'
+    tags:
+      - "cleaning"
+      - "obedience"
+      - "humiliation"
+
