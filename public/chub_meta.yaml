@@ -1,91 +1,22 @@
-# The name of the stage.
-project_name: "Femdom Interaction Stage"
-
-# A short tagline to show in search.
-tagline: "Interactive stage for femdom scenarios with configurable settings."
-
-# Visibility settings
-visibility: 'PUBLIC'
-
-# Frame position. 'ADJACENT' is recommended for side-by-side viewing.
-position: 'ADJACENT'
-
-# Tags to help users discover the stage in searches.
+name: "My Stage"
+visibility: "PUBLIC"
 tags:
-  - "femdom"
+  - "game"
   - "interactive"
-  - "BDSM"
-  - "school"
-  - "character interaction"
-
-# Configuration schema for user-defined settings
 config_schema:
-  title: "Femdom Interaction Stage Configuration"
-  description: "Configure the interaction intensity, character selection, and scene settings."
-  type: object
+  type: "object"
   properties:
-    interactionIntensity:
-      title: "Interaction Intensity"
-      description: "Defines the severity level of interactions."
-      type: integer
-      minimum: 1
-      maximum: 10
-      default: 5
-    selectedCharacter:
-      title: "Default Character"
-      description: "Choose the primary character for interactions."
-      type: string
-      enum: ["Kynzie Christian", "Riley Summers", "Ms. Hargrave", "Ms. Dorman", "Hailey Riggs"]
-      default: "Kynzie Christian"
-    allowPublicScenes:
-      title: "Allow Public Scenes"
-      description: "Enable or disable public scenarios for interactions."
-      type: boolean
-      default: false
-    enabledCategories:
-      title: "Enabled Interaction Categories"
-      description: "Choose the types of interactions available in the stage."
-      type: array
-      items:
-        type: string
-        enum: ["BDSM", "School", "Toy", "Humiliation", "Creative"]
-      default: ["BDSM", "School"]
-
-# State schema to specify data types and structures for stored state
+    some_setting:
+      type: "string"
+      default: "default value"
 state_schema:
   init:
-    type: object
+    type: "object"
     properties:
-      grid:
-        type: string
-        description: "Initial grid setup if relevant."
+      some_state:
+        type: "string"
   message:
-    type: object
+    type: "object"
     properties:
-      currentInteraction:
-        type: string
-        description: "The current interaction being performed."
-      interactionIntensity:
-        type: integer
-        description: "The current intensity level of interaction."
-  chat:
-    type: object
-    properties:
-      visited:
-        type: array
-        items:
-          type: string
-        description: "List of visited nodes or interactions."
-
-# If desired, publish anonymously (not required).
-is_anonymous: false
-
-# Disable ratings if preferred (not required).
-ratings_disabled: false
-
-# Placeholder for permissions (not required at this time).
-# permissions:
-
-# GitHub repository link (automatically generated on push).
-# github_path: "https://github.com/YourGitHubRepo"
-
+      some_message:
+        type: "string"
